@@ -92,7 +92,7 @@ let currentScore = 0;
 ques.forEach((question, index) => {
   // console.log(index);
   // console.log(question.answer);
-  console.log(question.question);
+  //   console.log(question.question);
 
   // console.log(`${question.question} - ${element}`);
   const creatingQuestion = document.createElement("div");
@@ -127,8 +127,6 @@ ques.forEach((question, index) => {
     `;
   questionBody.appendChild(creatingQuestion);
 
-  function countScore() {
-    if (condition) {
-    }
-  }
+  const cards = document.querySelectorAll(".q1");
+  console.log(cards);
 });
